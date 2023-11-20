@@ -1,14 +1,21 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Header from "./components/Header";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Footer from "./components/Footer";
+// index.js or App.js
+import "@fortawesome/fontawesome-free/css/all.min.css";
+
+import { BiAlarm } from "react-icons/bi";
+import { Button, Col, Container, Row } from "react-bootstrap";
+import SocialMeida_links from "./components/SocialMeida_links";
+import MainHealineData from "./components/MainHealineData";
+import CenterText from "./components/CenterText";
 function App() {
   return (
     <div className="App">
       <Header />
-      <h5>our awesome Clients</h5>
-      <h3>Our services are trusted by</h3>
+      <MainHealineData />
+      <CenterText />
+      <SocialMeida_links />
       <Footer />
     </div>
   );

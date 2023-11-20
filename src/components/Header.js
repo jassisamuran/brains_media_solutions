@@ -4,7 +4,7 @@ import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-
+import logo from "../images/logo.jpeg";
 const Header = () => {
   const logoutHandler = () => {};
 
@@ -12,7 +12,7 @@ const Header = () => {
     <div>
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container fluid>
-          <img src="/home/kali/Documents/logo.jpeg" alt="image" />
+          <img src={logo} alt="image" width="70px" height="80px" />
           &nbsp;&nbsp;
           {/* BRAINS MEDIA SOLUTIONS */}
           <Navbar.Brand href="#">Home</Navbar.Brand>
@@ -39,8 +39,8 @@ const Header = () => {
               <Nav.Link href="#">Contact</Nav.Link>
             </Nav>
 
-            <Form className="d-flex">
-              {/*+(91) 994 536 3588 */}
+            <Form className="d-flex align-items-center">
+              <i class="fa-solid fa-envelope"></i>&nbsp;
               contact@brainsmediasolutions.com
             </Form>
           </Navbar.Collapse>
