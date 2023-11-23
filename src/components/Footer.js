@@ -1,102 +1,27 @@
 import React from "react";
-import { Table } from "react-bootstrap";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Nav, Navbar } from "react-bootstrap";
+import Footerupward from "./Footerupward";
+
 const Footer = () => {
-  const headingStyle = { color: "red" };
-  const fixedSizeDivStyle = {
-    width: "100px", // Adjust the width to your desired fixed size
-    height: "50px", // Adjust the height to your desired fixed size
-    backgroundColor: "black", // Customize the background color
-    color: "white", // Customize the text color
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    postion: "relative",
-    textAlign: "center",
-  };
-
   return (
-    <div>
-      <div
-        className="container Footer"
-        // style={{ backgroundColor: "black", color: "white" }}
-      >
-        <div className="row">
-          <div className="col-md-6 col-lg-5 col-sm-12 ft-1">
-            <h3 style={{ color: "red" }}>Contact</h3>
-            <p>
-              Plot No 28, 2nd Floor Above Vikhyath Eye & Retina Care Center,
-              Ganeshpur Road, Near Military Hospital, Belagavi, Karnataka –
-              591108 919535533588 contact@brainsmediasolutions.com
-            </p>
-            {/* <div className="footer-icons">
-              <i class="fa-brands fa-facebook"></i>
-              <i class="fas fa-camera"></i>
-              <i class="far fa-envelope"></i>
-              <i class="fab fa-twitter"></i>
-            </div> */}
-          </div>
-          {/* Per Click SEO Optimization Privacy Policy */}
-          <div className="col-md-6 col-lg-3 col-sm-12 ft-2">
-            <h3>Services</h3>
-            <ul>
-              <li className="nav-item">
-                <a className="nav-link" href="/">
-                  Content Writing
-                </a>
-              </li>
-
-              <li className="nav-item">
-                <a className="nav-link" href="/">
-                  Website
-                </a>
-              </li>
-
-              <li className="nav-item">
-                <a className="nav-link" href="/">
-                  Developement
-                </a>
-              </li>
-
-              <li className="nav-item">
-                <a className="nav-link" href="/">
-                  Social Media
-                </a>
-              </li>
-
-              <li className="nav-item">
-                <a className="nav-link" href="/">
-                  Marketing Pay
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div className="col-md-6 col-lg-4 col-sm-12 ft-3">
-            <h5 style={{ color: "red" }}>Social Media</h5>
-            <p>
-              <i class="fa-brands fa-twitter fa-fade fa-xl"></i>
-            </p>
-            <p>
-              <i class="fa-brands fa-instagram fa-fade fa-xl"></i>
-            </p>
-            <p>
-              <i class="fa-brands fa-facebook fa-fade fa-xl"></i>
-            </p>
-            <p>
-              <i class="fa-brands fa-linkedin fa-fade fa-xl"></i>
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <footer>
-        <div
-          class="container "
-          style={{ color: "white", backgroundColor: "black" }}
-        >
-          <p>&copy; 2023 Your Website Name. All rights reserved.</p>
-        </div>
-      </footer>
+    <div style={{ color: "white", backgroundColor: "grey" }}>
+      <Footerupward />
+      <Navbar expand="lg" className="bg-body-tertiary">
+        <Container className="justify-content-center">
+          {/* <Navbar.Brand href="#home">F.Q.A</Navbar.Brand> */}
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="mx-auto">
+              <Nav.Link href="#home">F.Q.A</Nav.Link>
+              <Nav.Link href="#home">About Us</Nav.Link>
+              <Nav.Link href="#link">Career</Nav.Link>
+              <Nav.Link href="#home">Blog</Nav.Link>
+              <Nav.Link href="#link">Privacy Policy</Nav.Link>
+              <Nav.Link href="#link">Terms & Conditions</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
     </div>
   );
 };

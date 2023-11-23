@@ -1,18 +1,14 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import I1 from "../images/1.avif";
-import I2 from "../images/2.avif";
-import I3 from "../images/4.jpg";
-const SocialMeida_links = () => {
+import I1 from "../images/readblock1.webp";
+import I2 from "../images/readblock2.png";
+import I3 from "../images/readblock3.jpeg";
+
+const ReadBlocks = () => {
   return (
     <div style={{ marginTop: "30px" }}>
-      <h4>
-        {" "}
-        The Force Behind<span style={{ color: "red" }}> Our Success</span>
-      </h4>
-      <h3>
-        <span style={{ color: "red" }}>AMAZING TEAM</span> MEMBERS
-      </h3>
+      <h4 style={{ color: "red" }}> Knowledge at Your Fingertips</h4>
+      <h3>Read Our Latest Blog Posts, News & Articles</h3>
       <Container>
         <Row className="justify-content-md-center">
           <Col xs={12} md={3} className="mb-4">
@@ -21,23 +17,22 @@ const SocialMeida_links = () => {
               {/* Responsive image inside h4 heading */}
               <h4>
                 <Image
-                  src={I1} // Replace with the URL of your image
+                  src={I3} // Replace with the URL of your image
                   alt="Item 1 Image"
                   fluid
                   roundedCircle // Apply rounded corners to the image
                   className="mr-2" // Add additional styling if needed
                 />
-                Sudiv ruhi
+                The Significance of Social Media Marketing for..
               </h4>
               <p>
-                HR Manager{" "}
-                <p>
-                  <i class="fa-brands fa-linkedin fa-fade fa-xl"></i>
-                  &nbsp;
-                  <i class="fa-brands fa-facebook fa-fade fa-xl"></i>&nbsp;
-                  <i class="fa-brands fa-twitter fa-fade fa-xl"></i>
-                </p>
+                <i class="fa-solid fa-user"></i> Post By Admin
               </p>
+              <p>
+                Have you ever considered the significance of social media
+                marketing in promoting...
+              </p>
+              Read More&nbsp;<i class="fa-solid fa-arrow-right"></i>
             </div>
           </Col>
           <Col xs={12} md={3} className="mb-4">
@@ -52,15 +47,18 @@ const SocialMeida_links = () => {
                   roundedCircle // Apply rounded corners to the image
                   className="mr-2" // Add additional styling if needed
                 />
-                Ruhi jwan
+                Pay Per Click Advertising: Powerful Strategy for..
               </h4>
+              <p>
+                <i class="fa-solid fa-user"></i> Post By Admin
+              </p>
               <p>
                 Social Media Design&nbsp;{" "}
                 <p>
-                  <i class="fa-brands fa-linkedin fa-fade fa-xl"></i>&nbsp;
-                  <i class="fa-brands fa-facebook fa-fade fa-xl"></i>&nbsp;
-                  <i class="fa-brands fa-twitter fa-fade fa-xl"></i>
+                  Have you ever considered the significance of social media
+                  marketing in promoting...
                 </p>
+                Read More&nbsp;<i class="fa-solid fa-arrow-right"></i>
               </p>
             </div>
           </Col>
@@ -70,21 +68,23 @@ const SocialMeida_links = () => {
               {/* Responsive image inside h4 heading */}
               <h4>
                 <Image
-                  src={I3} // Replace with the URL of your image
+                  src={I1} // Replace with the URL of your image
                   alt="Item 1 Image"
                   fluid
                   roundedCircle // Apply rounded corners to the image
                   className="mr-2" // Add additional styling if needed
                 />
-                Jahy Duin
+                Top 5 Link Building Mistakes To Watch..
               </h4>
               <p>
-                Buisness Development &nbsp;{" "}
                 <p>
-                  <i class="fa-brands fa-linkedin fa-fade fa-xl"></i>&nbsp;
-                  <i class="fa-brands fa-facebook fa-fade fa-xl"></i>&nbsp;
-                  <i class="fa-brands fa-twitter fa-fade fa-xl"></i>
+                  <i class="fa-solid fa-user"></i> Post By Admin
                 </p>
+                <p>
+                  Have you ever considered the significance of social media
+                  marketing in promoting...
+                </p>
+                Read More&nbsp;<i class="fa-solid fa-arrow-right"></i>
               </p>
             </div>
           </Col>
@@ -96,4 +96,4 @@ const SocialMeida_links = () => {
   );
 };
 
-export default SocialMeida_links;
+export default ReadBlocks;

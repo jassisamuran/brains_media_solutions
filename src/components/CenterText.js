@@ -5,10 +5,13 @@ const CenterText = () => {
   return (
     <div>
       <Container style={{ marginTop: "100px" }}>
-        <Row>
+        <Row className="d-flex align-items-stretch">
           {/* Box for Image */}
           <Col xs={12} md={6}>
-            <div style={{ border: "1px solid black", padding: "20px" }}>
+            <div
+              className="h-100"
+              style={{ border: "1px solid black", padding: "20px" }}
+            >
               <img
                 src={cover}
                 alt="Your Image Alt Text"
@@ -19,7 +22,10 @@ const CenterText = () => {
 
           {/* Box for Text */}
           <Col xs={12} md={6}>
-            <div style={{ border: "1px solid black", padding: "20px" }}>
+            <div
+              className="h-100"
+              style={{ border: "1px solid black", padding: "20px" }}
+            >
               <h3>
                 <b>
                   {" "}
@@ -27,7 +33,7 @@ const CenterText = () => {
                   marketing world?
                 </b>
               </h3>
-              <p style={{ marginTop: "50px" }}>
+              <p style={{ marginTop: "20px" }}>
                 Social media is essential for any business or brand looking to
                 succeed in today’s digital age. It allows companies to reach out
                 and engage and build strong relationships with their customers.
@@ -41,10 +47,8 @@ const CenterText = () => {
                 competitive in today’s marketplace.
               </p>
               <br />
-
-              <br />
-              <Button variant="dark">
-                <i class="fa-solid fa-phone fa-beat"></i>&nbsp; Contact Us Now
+              <Button variant="dark" className="mt-3">
+                <i className="fas fa-phone fa-beat"></i>&nbsp; Contact Us Now
               </Button>
             </div>
           </Col>

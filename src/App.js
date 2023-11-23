@@ -9,13 +9,20 @@ import { Button, Col, Container, Row } from "react-bootstrap";
 import SocialMeida_links from "./components/SocialMeida_links";
 import MainHealineData from "./components/MainHealineData";
 import CenterText from "./components/CenterText";
+import TogetherContainer from "./components/TogetherContainer";
+import OurWinning from "./components/Our_winning";
+import ReadBlocks from "./components/ReadBlocks";
 function App() {
   return (
     <div className="App">
       <Header />
       <MainHealineData />
       <CenterText />
+      <ReadBlocks />
+      <OurWinning />
+
       <SocialMeida_links />
+      <TogetherContainer />
       <Footer />
     </div>
   );
