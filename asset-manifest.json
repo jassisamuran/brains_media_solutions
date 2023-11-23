@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/brains_media_solutions/static/css/main.0283bd14.css",
+    "main.js": "/brains_media_solutions/static/js/main.cffdb442.js",
+    "static/js/787.194aa00d.chunk.js": "/brains_media_solutions/static/js/787.194aa00d.chunk.js",
+    "static/media/cover.jpg": "/brains_media_solutions/static/media/cover.11ee1b6d58ae0275129d.jpg",
+    "static/media/4.jpg": "/brains_media_solutions/static/media/4.f26893999efcf60ae516.jpg",
+    "static/media/fa-solid-900.ttf": "/brains_media_solutions/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/center.jpg": "/brains_media_solutions/static/media/center.a60bdef18f182c7f9cd1.jpg",
+    "static/media/fa-brands-400.ttf": "/brains_media_solutions/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/fa-solid-900.woff2": "/brains_media_solutions/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/fa-brands-400.woff2": "/brains_media_solutions/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/fa-regular-400.ttf": "/brains_media_solutions/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/readblock1.webp": "/brains_media_solutions/static/media/readblock1.fd553526832dc3db772c.webp",
+    "static/media/fa-regular-400.woff2": "/brains_media_solutions/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/readblock2.png": "/brains_media_solutions/static/media/readblock2.bda9f64d335e63472c36.png",
+    "static/media/fa-v4compatibility.ttf": "/brains_media_solutions/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/1.avif": "/brains_media_solutions/static/media/1.f9d5b3bca758f2b9078d.avif",
+    "static/media/2.avif": "/brains_media_solutions/static/media/2.de998acfb70facf877ef.avif",
+    "static/media/fa-v4compatibility.woff2": "/brains_media_solutions/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "index.html": "/brains_media_solutions/index.html",
+    "main.0283bd14.css.map": "/brains_media_solutions/static/css/main.0283bd14.css.map",
+    "main.cffdb442.js.map": "/brains_media_solutions/static/js/main.cffdb442.js.map",
+    "787.194aa00d.chunk.js.map": "/brains_media_solutions/static/js/787.194aa00d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0283bd14.css",
+    "static/js/main.cffdb442.js"
+  ]
+}

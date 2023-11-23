@@ -1,0 +1,27 @@
+/* MyDropdownMenu.css */
+.custom-dropdown-button {
+  background-color: #3498db; /* Change this to your desired background color */
+  color: #ffffff; /* Change this to your desired text color */
+  border: 1px solid #2980b9; /* Change this to your desired border color */
+}
+
+.custom-dropdown-button:hover,
+.custom-dropdown-button:focus {
+  background-color: #2980b9; /* Change this to your desired hover/focus background color */
+  color: #ffffff; /* Change this to your desired hover/focus text color */
+  border: 1px solid #2980b9; /* Change this to your desired hover/focus border color */
+}
+
+/* Style for dropdown items */
+.custom-dropdown-button .dropdown-item {
+  color: #333; /* Change this to your desired text color for dropdown items */
+}
+
+.custom-dropdown-button .dropdown-item:hover,
+.custom-dropdown-button .dropdown-item:focus {
+  background-color: #ecf0f1; /* Change this to your desired hover/focus background color for dropdown items */
+  color: #333; /* Change this to your desired hover/focus text color for dropdown items */
+}
+body {
+  color: red;
+}
