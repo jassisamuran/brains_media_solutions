@@ -17,7 +17,6 @@ To start a program run npm start or it is available on github pages.
 ## Prerequisites
 - Frontend is designed to interact with all types of mobile phones,tablets and Desktops.
 - Internet connection to load external libraries and resources.
-- 
 ## Usage
 This project is used to interact with users to attract users. main focus of this project is users experience how they looks and how it could be helful for users.
 
@@ -27,8 +26,7 @@ It give full description how many peoples working on it and full details of site
 ## File Structure
 - `/src/components`: The file contains all the pages which are in our project like Header Footer etc.
 - `/images`: it contains all the images in project.
--  All rest of project is based on React basic desing as from start.
--  
+-  All rest of project is based on React basic desing as from start. 
 ## Acknowledgments
 Thanks to my inteviewer  who inspires to think out of box. 
 
